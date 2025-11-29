@@ -4,6 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node src/validators/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node src/validators/index.js",
     "dev:watch": "nodemon src/validators/index.js"
