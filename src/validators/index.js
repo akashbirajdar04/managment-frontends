@@ -7,7 +7,7 @@ initPerformanceSDK({
   serviceName: 'my-web-app',
   collectorEndpoint: 'https://prfeai-backend.onrender.com/api/telemetry',
   headers: {
-    'x-session-id': '696a66cef925d92f76e79c12' // Found in browser URL
+    'x-session-id': '696a6a56f925d92f76e79efd'// Found in browser URL
   }
 });
 dotenv.config({ path: path.resolve("./.env") });
